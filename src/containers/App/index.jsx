@@ -326,6 +326,32 @@ class App extends Component {
           style={{ margin: '5em 0em 0em', padding: '5em 0em' }}
           vertical
         >
+          <Container fluid textAlign='center'>
+            <Menu
+              compact
+              icon='labeled'
+              horizontal
+              inverted
+              style={{
+                margin: '0 auto'
+              }}
+            >
+              <Menu.Item as="a" href="https://twitter.com/gustavpersson">
+                <Icon name='twitter' />
+               Twitter
+              </Menu.Item>
+
+              <Menu.Item as="a" href="https://github.com/GustavPersson">
+                <Icon name='github' />
+               Github
+              </Menu.Item>
+
+              <Menu.Item as="a" href="mailto:gustav.e.persson@gmail.com" >
+                <Icon name='mail' />
+               Email
+              </Menu.Item>
+            </Menu>
+          </Container>
         </Segment>
       </div>
     );
