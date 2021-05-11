@@ -22,6 +22,28 @@
   font-size: large;
 }
 
+
+h1.ui.header {
+  margin-bottom: 2.5rem;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+}
+
+p {
+    color: rgba(0,0,0,0.77);
+    line-height: 1.5;
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
