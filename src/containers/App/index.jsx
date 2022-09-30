@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { createMedia } from "@artsy/fresnel";
 import _ from 'lodash';
 
 import {
@@ -150,7 +149,8 @@ class App extends Component {
             taking responsibility for different projects. During my free time
             I'm a passionate cyclist and Malmö FF supporter.
             I enjoy watching sports, and spend whatever extra time
-            I have with my fiancée, our cats, running, hiking, and playing computer
+            I have with my wife, our 7 cats (only three of them are voluntary), 30-something chickens, 
+            and 3 ducks. The time I have left after that I spend running, hiking, and playing video
             games.
           </p>
 
@@ -159,9 +159,32 @@ class App extends Component {
           </Header>
 
           <Header as='h3' dividing textAlign="center">
+            Joint Academy
+            <Header.Subheader>
+            Senior Developer - Malmö, Sweden - 2022 -
+            </Header.Subheader>
+          </Header>
+
+          <p>
+            Worked with the Joint Academy patient app, written in React Native, 
+            and the Physiotherapist app, which was a React Web app. The Joint Academy app offers patients
+            treatment for osteoarthritis, joint pain and low back pain in the app, 
+            by providing contact with Physiotherapists for consultation, contact with other people going through
+            the same things, and providing the patients with exercises and tips to treat their pain.
+          </p>
+          <p>
+            I worked mostly on the patient app, developing new features and conduction 
+            experiments for new functionality, as well as did some minor work on the Physiotherapist app.
+            I took a lot of responsibility in improving the build and release flows for the 
+            application, and was always available for assisting other developers in the team. 
+            The application team was very open and collaborated a lot between the different 
+            smaller teams, which gave everyone a lot of insight into the codebase as a whole.
+          </p>
+
+          <Header as='h3' dividing textAlign="center">
             UsTwo AB
             <Header.Subheader>
-            Senior Developer - Malmö, Sweden - 2020 -
+            Senior Developer - Malmö, Sweden - 2020 - 2022
             </Header.Subheader>
           </Header>
 
@@ -424,7 +447,7 @@ class App extends Component {
             released according to plan.
           </p>
 
-          <Header as='h3' dividing textAlign="center">
+          {/* <Header as='h3' dividing textAlign="center">
           Blekinge Institute of Technology
             <Header.Subheader>
             {'Project Leader/Developer, Jan 2010 – May 2010'}
@@ -436,7 +459,7 @@ class App extends Component {
             strategy game in C++, using Scrum and various other technologies to
             handle the project management. We completed the project on time, and
             received overall positive reactions from play testers and graders.
-          </p>
+          </p> */}
         </Container>
 
         <Segment
