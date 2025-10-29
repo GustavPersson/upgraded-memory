@@ -68,7 +68,7 @@ class App extends Component {
         >
           <Menu
             borderless
-            fixed={menuFixed && 'top'}
+            fixed={menuFixed && "top"}
             style={menuFixed ? fixedMenuStyle : menuStyle}
             className="no-print"
           >
@@ -89,14 +89,9 @@ class App extends Component {
               icon="labeled"
               horizontal
               style={{
-                margin: '0 auto'
+                margin: "0 auto",
               }}
             >
-              <Menu.Item as="a" href="https://twitter.com/gustavpersson">
-                <Icon name="twitter" />
-                Twitter
-              </Menu.Item>
-
               <Menu.Item as="a" href="https://github.com/GustavPersson">
                 <Icon name="github" />
                 Github
@@ -113,8 +108,8 @@ class App extends Component {
             Gustav Persson
           </Header>
           <p>
-            I am a senior software developer with a special interest in
-            modern web technologies and games programming.
+            I am a senior software developer with a special interest in modern
+            web technologies and games programming.
           </p>
           <p>
             I have an interest in front and back end development, and especially
@@ -132,92 +127,158 @@ class App extends Component {
           <p>
             My goal is to be part of a team that works with cutting edge
             technologies and projects, where I am able to continually develop my
-            skills, work close to design teams, learn new things and take on a lot
-            of responsibility.
+            skills, work close to design teams, learn new things and take on a
+            lot of responsibility.
           </p>
           <p>
             I'm used to working in Windows, Linux and Mac systems, with a wide
-            array of tools. My main programming languages are JavaScript, C++, and
-            C#. I am especially experienced in Web programming, and have
-            an education in Games programming. The last years I've been working
-            with both back and front end development on web portals and web
-            applications, mobile applications built with React Native, and
-            modernized and customized web sites for mobile content.
+            array of tools. My main programming languages are
+            JavaScript/TypeScript, C++, and C#. I am especially experienced in
+            Web programming, and have an education in Games programming. The
+            last years I've been working with both back and front end
+            development on web portals and web applications, mobile applications
+            built with React Native, and modernized and customized web sites for
+            mobile content.
           </p>
           <p>
             I am not afraid to voice my opinion and take a discussion, and enjoy
             taking responsibility for different projects. During my free time
-            I'm a passionate cyclist and Malmö FF supporter.
-            I enjoy watching sports, and spend whatever extra time
-            I have with my wife, our 7 cats (only three of them are voluntary), 30-something chickens, 
-            and 3 ducks. The time I have left after that I spend running, hiking, and playing video
-            games.
+            I'm a passionate cyclist and Malmö FF supporter. I enjoy watching
+            sports, and spend whatever extra time I have with my wife, our 6
+            cats, 60-something chickens, and 10 ducks. The time I have left
+            after that I spend running, hiking, and playing video games.
           </p>
 
           <Header as="h1" textAlign="center">
             Experience
           </Header>
+          <Header as="h3" dividing textAlign="center">
+            Minut AB
+            <Header.Subheader>
+              Senior Frontend Developer - Malmö, Sweden - 2025 - present
+            </Header.Subheader>
+          </Header>
 
-          <Header as='h3' dividing textAlign="center">
+          <p>
+            Worked with the implementation of a modern Web Client for the Minut
+            product, written in React and TypeScript. During my time at Minut, I
+            worked on improving the product for the company and the customers,
+            by:
+            <List bulleted>
+              <List.Item>
+                Improved performance and loading times for the product, by
+                implementing a new data fetching system using TanStack React
+                Query.
+              </List.Item>
+              <List.Item>
+                Architected and developed a large-scale enterprise application
+                using React 19, strict TypeScript, and Vite, employing a
+                modular, feature-based architecture for scalability.
+              </List.Item>
+              <List.Item>
+                Managed all server state, caching, and data fetching with
+                TanStack React Query, utilized React Context with custom hooks
+                for global UI state management.
+              </List.Item>
+              <List.Item>
+                Built a responsive, component-driven UI with styled-components
+                (using container queries over media queries) and integrated
+                Highcharts for interactive data dashboards.
+              </List.Item>
+              <List.Item>
+                Integrated critical services including Stripe for payments,
+                Firebase for push notifications, WebSockets for real-time
+                updates, and i18next for multi-language support.
+              </List.Item>
+              <List.Item>
+                Ensured code quality and performance through SOLID principles,
+                strict ESLint/Prettier rules, CI/CD pipelines with Docker, and a
+                strong focus on WCAG accessibility.
+              </List.Item>
+            </List>
+          </p>
+
+          <Header as="h3" dividing textAlign="center">
+            Consafe Logistics AB
+            <Header.Subheader>
+              Senior Frontend Developer - Lund, Sweden - 2023-2025
+            </Header.Subheader>
+          </Header>
+
+          <p>
+            Worked with the implementation of a modern Web Client for the Astro
+            Warehouse Management System, to be used by warehouse personnel when
+            they work in the warehouse. The client is built in TypeScript, using
+            React and a MVVM framework called MobX, and is built to be used on
+            mobile devices. The client is built to be used in a warehouse
+            environment, and is used to manage the warehouse operations, such as
+            picking, packing, and shipping.
+          </p>
+
+          <Header as="h3" dividing textAlign="center">
             Joint Academy
             <Header.Subheader>
-            Senior Developer - Malmö, Sweden - 2022 -
+              Senior Developer - Malmö, Sweden - 2022 - 2023
             </Header.Subheader>
           </Header>
 
           <p>
-            Worked with the Joint Academy patient app, written in React Native, 
-            and the Physiotherapist app, which was a React Web app. The Joint Academy app offers patients
-            treatment for osteoarthritis, joint pain and low back pain in the app, 
-            by providing contact with Physiotherapists for consultation, contact with other people going through
-            the same things, and providing the patients with exercises and tips to treat their pain.
+            Worked with the Joint Academy patient app, written in React Native,
+            and the Physiotherapist app, which was a React Web app. The Joint
+            Academy app offers patients treatment for osteoarthritis, joint pain
+            and low back pain in the app, by providing contact with
+            Physiotherapists for consultation, contact with other people going
+            through the same things, and providing the patients with exercises
+            and tips to treat their pain.
           </p>
           <p>
-            I worked mostly on the patient app, developing new features and conduction 
-            experiments for new functionality, as well as did some minor work on the Physiotherapist app.
-            I took a lot of responsibility in improving the build and release flows for the 
-            application, and was always available for assisting other developers in the team. 
-            The application team was very open and collaborated a lot between the different 
-            smaller teams, which gave everyone a lot of insight into the codebase as a whole.
+            I worked mostly on the patient app, developing new features and
+            conduction experiments for new functionality, as well as did some
+            minor work on the Physiotherapist app. I took a lot of
+            responsibility in improving the build and release flows for the
+            application, and was always available for assisting other developers
+            in the team. The application team was very open and collaborated a
+            lot between the different smaller teams, which gave everyone a lot
+            of insight into the codebase as a whole.
           </p>
 
-          <Header as='h3' dividing textAlign="center">
+          <Header as="h3" dividing textAlign="center">
             UsTwo AB
             <Header.Subheader>
-            Senior Developer - Malmö, Sweden - 2020 - 2022
+              Senior Developer - Malmö, Sweden - 2020 - 2022
             </Header.Subheader>
           </Header>
 
           <p>
-            Mainly worked with cross functional agile teams, designing and developing
-            mobile React Native apps for different major clients,
-            open source projects such as the Helsingborgs Stad guide app,
-            as well as working with supporting other teams within the company with iOS development, and web development.
+            Mainly worked with cross functional agile teams, designing and
+            developing mobile React Native apps for different major clients,
+            open source projects such as the Helsingborgs Stad guide app, as
+            well as working with supporting other teams within the company with
+            iOS development, and web development.
           </p>
           <p>
             The major projects I was involved with was creating an eCommerce and
-            lifestyle app for a danish shoe company, and an app to help alleviate
-            allergy problems for the allergy company ALK. The Ecommerce app
-            was done as a React Native app with a matching middleware server
-            that translates generic API calls from the app in order to seamlessly
-            support multiple markets with different configurations.
-            In the project I took
-            on a large role initially, being the most senior Front End developer.
-            I set up architecture and the ecosystem, as well as took charge of
-            the backlog and mentored more junior developers.
-
-            I joined the ALK app team in order to help prepare for some major releases,
-            as well as releasing the application to several new markets. The app
-            helps users with pollen allergies by collecting pollen data from several
-            different data providers, and used questionnaires collected from the users
-            in order to calculate how severe their allergic reactions would be on
-            any given day.
+            lifestyle app for a danish shoe company, and an app to help
+            alleviate allergy problems for the allergy company ALK. The
+            Ecommerce app was done as a React Native app with a matching
+            middleware server that translates generic API calls from the app in
+            order to seamlessly support multiple markets with different
+            configurations. In the project I took on a large role initially,
+            being the most senior Front End developer. I set up architecture and
+            the ecosystem, as well as took charge of the backlog and mentored
+            more junior developers. I joined the ALK app team in order to help
+            prepare for some major releases, as well as releasing the
+            application to several new markets. The app helps users with pollen
+            allergies by collecting pollen data from several different data
+            providers, and used questionnaires collected from the users in order
+            to calculate how severe their allergic reactions would be on any
+            given day.
           </p>
 
-          <Header as='h3' dividing textAlign="center">
+          <Header as="h3" dividing textAlign="center">
             Djäkne Partners AB
             <Header.Subheader>
-            {'Partner and Front End Developer - Malmö, Sweden - 2018 - 2020'}
+              {"Partner and Front End Developer - Malmö, Sweden - 2018 - 2020"}
             </Header.Subheader>
           </Header>
           <p>
@@ -238,10 +299,10 @@ class App extends Component {
             everybody shared responsibility of code, design, and customer
             contact and planning.
           </p>
-          <Header as='h3' dividing textAlign="center">
+          <Header as="h3" dividing textAlign="center">
             Modcam AB
             <Header.Subheader>
-            {'Front End Lead - Malmö, Sweden - 2016 - 2018'}
+              {"Front End Lead - Malmö, Sweden - 2016 - 2018"}
             </Header.Subheader>
           </Header>
           <p>
@@ -260,10 +321,10 @@ class App extends Component {
             built around Webpack and Babel, compiling to both NodeJS-compatible
             code, and code that runs on the client.
           </p>
-          <Header as='h3' dividing textAlign="center">
-          Mobenga AB
+          <Header as="h3" dividing textAlign="center">
+            Mobenga AB
             <Header.Subheader>
-            {'Front End Developer - Malmö, Sweden - 2015 - 2016'}
+              {"Front End Developer - Malmö, Sweden - 2015 - 2016"}
             </Header.Subheader>
           </Header>
           <p>
@@ -273,6 +334,7 @@ class App extends Component {
             platform applications, with support for a wide range of devices with
             a mobile first design in mind.
           </p>
+          {/* 
           <p>
             Worked together with internal teams to create and improve Front End
             development tools, used to improve productivity and align all
@@ -285,12 +347,12 @@ class App extends Component {
             had a build environment built around Gulp, that amongst other things
             contained a ES2015-translator, allowing us to write JavaScript using
             the newest syntaxes.
-          </p>
+          </p> */}
 
-          <Header as='h3' dividing textAlign="center">
-          HiQ Skåne AB
+          <Header as="h3" dividing textAlign="center">
+            HiQ Skåne AB
             <Header.Subheader>
-            {'Consultant - Lund, Sweden - 2013 - 2015'}
+              {"Consultant - Lund, Sweden - 2013 - 2015"}
             </Header.Subheader>
           </Header>
           <Header as="h4">Consultancy Assignments</Header>
@@ -306,10 +368,10 @@ class App extends Component {
             </List.Item>
             <List.Item>Web Frontend Developer, InfabVitamin AB </List.Item>
           </List>
-          <Header as='h3' dividing textAlign="center">
+          {/* <Header as="h3" dividing textAlign="center">
             Sony Mobile AB
             <Header.Subheader>
-            {'App Programmer - Lund, Sweden - June 2013 - Nov 2013'}
+              {"App Programmer - Lund, Sweden - June 2013 - Nov 2013"}
             </Header.Subheader>
           </Header>
           <p>
@@ -324,10 +386,10 @@ class App extends Component {
             Was also part of the Platform team, working with making sure that
             the code base was regularly being kept up to date with Mozilla.
           </p>
-          <Header as='h3' dividing textAlign="center">
+          <Header as="h3" dividing textAlign="center">
             Sony Mobile AB
             <Header.Subheader>
-            {'Platform Programmer - Lund, Sweden - Nov 2013 - Apr 2014'}
+              {"Platform Programmer - Lund, Sweden - Nov 2013 - Apr 2014"}
             </Header.Subheader>
           </Header>
           <p>
@@ -343,12 +405,12 @@ class App extends Component {
             languages and tools, for example HTML5, JavaScript, Python, C and
             Git.
           </p>
-          <Header as='h3' dividing textAlign="center">
+          <Header as="h3" dividing textAlign="center">
             Blackberry
             <Header.Subheader>
-            {
-              'Web Application Developer - Malmö, Sweden - May 2014 - Dec 2014'
-            }
+              {
+                "Web Application Developer - Malmö, Sweden - May 2014 - Dec 2014"
+              }
             </Header.Subheader>
           </Header>
           <p>
@@ -366,10 +428,10 @@ class App extends Component {
             programming languages and tools, for example HTML5, JavaScript,
             AngularJS, Sass and Git.
           </p>
-          <Header as='h3' dividing textAlign="center">
+          <Header as="h3" dividing textAlign="center">
             Infab Vitamin
             <Header.Subheader>
-            {'Front End Developer - Malmö, Sweden - Jan 2015 - Mar 2015'}
+              {"Front End Developer - Malmö, Sweden - Jan 2015 - Mar 2015"}
             </Header.Subheader>
           </Header>
           <p>
@@ -382,10 +444,10 @@ class App extends Component {
             technologies and libraries, including Less, jQuery, Angular and
             Bootstrap, and the app was built on a backend server using CakePHP.
           </p>
-          <Header as='h3' dividing textAlign="center">
+          <Header as="h3" dividing textAlign="center">
             HiQ Karlskrona AB
             <Header.Subheader>
-            {'Consultant - Karlskrona, Sweden - 2010 - 2013'}
+              {"Consultant - Karlskrona, Sweden - 2010 - 2013"}
             </Header.Subheader>
           </Header>
           <Header as="h4">Consultancy Assignments</Header>
@@ -396,10 +458,10 @@ class App extends Component {
             </List.Item>
             <List.Item>Front End Developer, Milou AB </List.Item>
           </List>
-          <Header as='h3' dividing textAlign="center">
-          Telenor Sverige AB
+          <Header as="h3" dividing textAlign="center">
+            Telenor Sverige AB
             <Header.Subheader>
-            {'Web Programmer - Karlskrona, Sweden - 2010 - 2013'}
+              {"Web Programmer - Karlskrona, Sweden - 2010 - 2013"}
             </Header.Subheader>
           </Header>
           <p>
@@ -432,10 +494,10 @@ class App extends Component {
             than the ones that are used on the other portals.
           </p>
 
-          <Header as='h3' dividing textAlign="center">
-          Milou AB
+          <Header as="h3" dividing textAlign="center">
+            Milou AB
             <Header.Subheader>
-            {'Web Programmer - Karlskrona, Sweden - 2013'}
+              {"Web Programmer - Karlskrona, Sweden - 2013"}
             </Header.Subheader>
           </Header>
           <p>
@@ -445,26 +507,12 @@ class App extends Component {
             using HTML5 and CSS3. The project team was small, and the tempo was
             hectic, but everything went according to plan and the site was
             released according to plan.
-          </p>
-
-          {/* <Header as='h3' dividing textAlign="center">
-          Blekinge Institute of Technology
-            <Header.Subheader>
-            {'Project Leader/Developer, Jan 2010 – May 2010'}
-            </Header.Subheader>
-          </Header>
-          <p>
-            Was the project leader and a game logic developer on a big project
-            during my last year at Blekinge Institute of Technology, where we developed our own computer
-            strategy game in C++, using Scrum and various other technologies to
-            handle the project management. We completed the project on time, and
-            received overall positive reactions from play testers and graders.
           </p> */}
         </Container>
 
         <Segment
           inverted
-          style={{ margin: '5em 0em 0em', padding: '5em 0em' }}
+          style={{ margin: "5em 0em 0em", padding: "5em 0em" }}
           vertical
           className="no-print"
         >
@@ -475,7 +523,7 @@ class App extends Component {
               horizontal
               inverted
               style={{
-                margin: '0 auto'
+                margin: "0 auto",
               }}
             >
               <Menu.Item as="a" href="https://twitter.com/gustavpersson">
