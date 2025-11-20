@@ -103,10 +103,24 @@ class App extends Component {
               </Menu.Item>
             </Menu>
           </Container>
+
           <Divider />
           <Header as="h1" textAlign="center">
             Gustav Persson
           </Header>
+          <Container
+            fluid
+            textAlign="center"
+            className="print-only"
+            style={{ marginTop: "-2rem" }}
+          >
+            <p>
+              gustav.e.persson@gmail.com
+              <br />
+              +46 733 76 64 93
+            </p>
+            <Divider />
+          </Container>
           <p>
             I am a senior software developer with a special interest in modern
             web technologies and games programming.
@@ -157,13 +171,14 @@ class App extends Component {
             <Header.Subheader>
               Senior Frontend Developer - Malmö, Sweden - 2025 - present
             </Header.Subheader>
+            <Header.Subheader>Tech Scale Up</Header.Subheader>
           </Header>
 
           <p>
-            Worked with the implementation of a modern Web Client for the Minut
+            {/* Worked with the implementation of a modern Web Client for the Minut
             product, written in React and TypeScript. During my time at Minut, I
             worked on improving the product for the company and the customers,
-            by:
+            by: */}
             <List bulleted>
               <List.Item>
                 Improved performance and loading times for the product, by
@@ -203,16 +218,27 @@ class App extends Component {
             <Header.Subheader>
               Senior Frontend Developer - Lund, Sweden - 2023-2025
             </Header.Subheader>
+            <Header.Subheader>Warehouse Management System</Header.Subheader>
           </Header>
 
           <p>
-            Worked with the implementation of a modern Web Client for the Astro
-            Warehouse Management System, to be used by warehouse personnel when
-            they work in the warehouse. The client is built in TypeScript, using
-            React and a MVVM framework called MobX, and is built to be used on
-            mobile devices. The client is built to be used in a warehouse
-            environment, and is used to manage the warehouse operations, such as
-            picking, packing, and shipping.
+            <List bulleted>
+              <List.Item>
+                Engineered a mobile-first Web Client for the Astro Warehouse
+                Management System using React and TypeScript, replacing legacy
+                workflows with a modern tech stack.
+              </List.Item>
+              <List.Item>
+                Architected a scalable frontend codebase utilizing the MVVM
+                pattern and MobX to decouple business logic from UI components,
+                ensuring long-term maintainability.
+              </List.Item>
+              <List.Item>
+                Optimized the application for mobile devices used by warehouse
+                personnel, delivering a high-performance interface for critical
+                operations like picking, packing, and shipping.
+              </List.Item>
+            </List>
           </p>
 
           <Header as="h3" dividing textAlign="center">
@@ -220,26 +246,41 @@ class App extends Component {
             <Header.Subheader>
               Senior Developer - Malmö, Sweden - 2022 - 2023
             </Header.Subheader>
+            <Header.Subheader>Healthcare Startup</Header.Subheader>
           </Header>
 
           <p>
-            Worked with the Joint Academy patient app, written in React Native,
-            and the Physiotherapist app, which was a React Web app. The Joint
-            Academy app offers patients treatment for osteoarthritis, joint pain
-            and low back pain in the app, by providing contact with
-            Physiotherapists for consultation, contact with other people going
-            through the same things, and providing the patients with exercises
-            and tips to treat their pain.
-          </p>
-          <p>
-            I worked mostly on the patient app, developing new features and
-            conduction experiments for new functionality, as well as did some
-            minor work on the Physiotherapist app. I took a lot of
-            responsibility in improving the build and release flows for the
-            application, and was always available for assisting other developers
-            in the team. The application team was very open and collaborated a
-            lot between the different smaller teams, which gave everyone a lot
-            of insight into the codebase as a whole.
+            <List bulleted>
+              <List.Item>
+                Lead development on the consumer-facing <b>React Native</b> app,
+                delivering features for digital osteoarthritis treatment, remote
+                consultations, and exercise tracking.
+              </List.Item>
+
+              <List.Item>
+                Optimized the release engineering process, taking ownership of
+                the build and release flows to ensure faster and more reliable
+                mobile application deployments.
+              </List.Item>
+
+              <List.Item>
+                Drove product growth by implementing and monitoring A/B tests
+                and feature experiments to validate new functionality with real
+                user data.
+              </List.Item>
+
+              <List.Item>
+                Mentored team members and fostered a collaborative culture
+                across multiple squads, increasing knowledge sharing and
+                architectural alignment within the codebase.
+              </List.Item>
+
+              <List.Item>
+                Contributed to the accompanying React web application for
+                Physiotherapists, ensuring feature parity and seamless data
+                synchronization between the provider and patient platforms.
+              </List.Item>
+            </List>
           </p>
 
           <Header as="h3" dividing textAlign="center">
@@ -247,32 +288,41 @@ class App extends Component {
             <Header.Subheader>
               Senior Developer - Malmö, Sweden - 2020 - 2022
             </Header.Subheader>
+            <Header.Subheader>Design Studio</Header.Subheader>
           </Header>
 
           <p>
-            Mainly worked with cross functional agile teams, designing and
-            developing mobile React Native apps for different major clients,
-            open source projects such as the Helsingborgs Stad guide app, as
-            well as working with supporting other teams within the company with
-            iOS development, and web development.
-          </p>
-          <p>
-            The major projects I was involved with was creating an eCommerce and
-            lifestyle app for a danish shoe company, and an app to help
-            alleviate allergy problems for the allergy company ALK. The
-            Ecommerce app was done as a React Native app with a matching
-            middleware server that translates generic API calls from the app in
-            order to seamlessly support multiple markets with different
-            configurations. In the project I took on a large role initially,
-            being the most senior Front End developer. I set up architecture and
-            the ecosystem, as well as took charge of the backlog and mentored
-            more junior developers. I joined the ALK app team in order to help
-            prepare for some major releases, as well as releasing the
-            application to several new markets. The app helps users with pollen
-            allergies by collecting pollen data from several different data
-            providers, and used questionnaires collected from the users in order
-            to calculate how severe their allergic reactions would be on any
-            given day.
+            <List bulleted>
+              <List.Item>
+                Architected the frontend ecosystem for a multi-market eCommerce
+                React Native application, designing a custom middleware layer to
+                normalize API data and handle complex regional configurations.
+              </List.Item>
+
+              <List.Item>
+                Led the technical team as the Lead Frontend Developer,
+                establishing project structure, managing the technical backlog,
+                and actively mentoring junior developers to ensure code quality.
+              </List.Item>
+
+              <List.Item>
+                Executed major global releases for the ALK allergy management
+                platform, expanding the application's availability to several
+                new international markets.
+              </List.Item>
+
+              <List.Item>
+                Implemented complex logic to aggregate real-time data from
+                multiple external providers, calculating personalized allergy
+                severity forecasts based on user health inputs.
+              </List.Item>
+
+              <List.Item>
+                Contributed to open-source software (Helsingborgs Stad guide
+                app) and served as a technical resource for other teams,
+                resolving complex issues in Web and Native iOS development.
+              </List.Item>
+            </List>
           </p>
 
           <Header as="h3" dividing textAlign="center">
@@ -280,46 +330,34 @@ class App extends Component {
             <Header.Subheader>
               {"Partner and Front End Developer - Malmö, Sweden - 2018 - 2020"}
             </Header.Subheader>
+            <Header.Subheader>Startup Consulting</Header.Subheader>
           </Header>
           <p>
-            Worked with several projects and companies as part of Djäkne
-            Partner's work with startups and other clients. Worked with
-            rebuilding a big crowd sourced news platform to use more modern
-            technologies, both on their web based platform as well as on
-            rewriting their app in React Native. Further, I worked with building
-            a customer zone and web based tools for a site survey company, as
-            well as several minor consultancy hours with minor customers and
-            partners.
-          </p>
-          <p>
-            I worked with several projects at the same time, often switching
-            several times in a week in order to produce the best possible
-            outcome for the customers, had direct customer contact on all
-            projects. The projects were done in very small teams, where
-            everybody shared responsibility of code, design, and customer
-            contact and planning.
+            <List bulleted>
+              <List.Item>
+                Provided full-lifecycle development for a portfolio of startups,
+                modernizing legacy platforms to React Native and modern web
+                stacks while managing direct client communication and agile
+                planning in a high-paced consultancy environment.
+              </List.Item>
+            </List>
           </p>
           <Header as="h3" dividing textAlign="center">
             Modcam AB
             <Header.Subheader>
               {"Front End Lead - Malmö, Sweden - 2016 - 2018"}
             </Header.Subheader>
+            <Header.Subheader>Tech Startup</Header.Subheader>
           </Header>
           <p>
-            Worked as a Front End Lead for a Malmö based Startup working with
-            business intelligence, developing and maintaining front end
-            solutions for customers to view their data, and manage their
-            services and devices.
-          </p>
-          <p>
-            I worked in a high pace environment, with continous releases, using
-            a version of SCRUM that worked for our small team. We used ReactJS
-            as the main Front End framework, with Redux as a state management
-            system, rendering both on the client and the server to improve
-            performance to handle the large amounts of data customers had access
-            to. We used SASS as a CSS preprocessor, and had a build environment
-            built around Webpack and Babel, compiling to both NodeJS-compatible
-            code, and code that runs on the client.
+            <List bulleted>
+              <List.Item>
+                Led frontend development for a Business Intelligence platform,
+                implementing Server-Side Rendering (SSR) with React and Redux to
+                optimize performance for large-scale data visualization, while
+                maintaining build tooling and continuous delivery pipelines.
+              </List.Item>
+            </List>
           </p>
           <Header as="h3" dividing textAlign="center">
             Mobenga AB
@@ -327,6 +365,7 @@ class App extends Component {
               {"Front End Developer - Malmö, Sweden - 2015 - 2016"}
             </Header.Subheader>
           </Header>
+          {/* 
           <p>
             Worked as a Front End Developer in several teams, developing
             Sportsbook applications. The applications ranged from web apps in a
@@ -334,7 +373,6 @@ class App extends Component {
             platform applications, with support for a wide range of devices with
             a mobile first design in mind.
           </p>
-          {/* 
           <p>
             Worked together with internal teams to create and improve Front End
             development tools, used to improve productivity and align all

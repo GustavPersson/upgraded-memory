@@ -36,12 +36,19 @@ p {
     line-height: 1.5;
 }
 
-@media print
-{
-    .no-print, .no-print *
-    {
-        display: none !important;
-    }
+.print-only {
+  display: none !important;
+}
+@media print {
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
 }
 
 @keyframes App-logo-spin {
