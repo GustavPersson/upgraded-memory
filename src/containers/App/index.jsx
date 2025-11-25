@@ -82,7 +82,7 @@ class App extends Component {
         </Visibility>
 
         <Container text>
-          <Image src={face} size="medium" centered />
+          <Image src={face} size="medium" centered className="no-print" />
           <Container fluid textAlign="center" className="no-print">
             <Menu
               compact
@@ -121,7 +121,7 @@ class App extends Component {
             </p>
             <Divider />
           </Container>
-          <p>
+          {/* <p>
             I am a senior software developer with a special interest in modern
             web technologies and games programming.
           </p>
@@ -161,6 +161,61 @@ class App extends Component {
             sports, and spend whatever extra time I have with my wife, our 6
             cats, 60-something chickens, and 10 ducks. The time I have left
             after that I spend running, hiking, and playing video games.
+          </p> */}
+
+          <p>
+            Senior Frontend Engineer with deep experience in React, React
+            Native, and TypeScript. I've spent the last several years building
+            reliable, high-quality web and mobile interfaces, improving
+            performance, and shaping scalable frontend architectures. I enjoy
+            working closely with designers, product teams, and analysts to solve
+            real customer problems, run experiments, and ship features that
+            actually move the needle. I'm at my best in collaborative teams
+            where clean code, curiosity, and constant improvement are the
+            standard.
+          </p>
+
+          <Header as="h1" textAlign="center">
+            Skills and Tools
+          </Header>
+          <p>
+            <List>
+              <List.Header as="b">Frontend</List.Header>
+              <List.Content as="p">
+                • React • React Native • TypeScript • JavaScript (ES6+) • HTML5
+                • CSS3 • Component-driven development • Responsive UI
+              </List.Content>
+
+              <List.Header as="b">State & Data</List.Header>
+              <List.Content as="p">
+                • React Query • MobX • Context API • REST • GraphQL • Real-time
+                data
+              </List.Content>
+
+              <List.Header as="b">Tooling & Build</List.Header>
+              <List.Content as="p">
+                • Vite • Webpack • Node.js • Git • pnpm/npm/yarn • CI/CD •
+                Docker
+              </List.Content>
+
+              <List.Header as="b">Testing & Quality</List.Header>
+              <List.Content as="p">
+                • Jest • Vitest • Playwright • React Testing Library • Automated
+                testing • ESLint/Prettier • Accessibility (WCAG)
+              </List.Content>
+
+              <List.Header as="b">Architecture & Practices</List.Header>
+              <List.Content as="p">
+                • Frontend architecture • Performance optimization • Modular
+                codebases • Design systems • Mobile-first development • A/B
+                testing • Feature flags
+              </List.Content>
+
+              <List.Header as="b">Collaboration</List.Header>
+              <List.Content as="p">
+                • Cross-functional teamwork • Agile workflows • Mentoring
+              </List.Content>
+            </List>
           </p>
 
           <Header as="h1" textAlign="center">
@@ -359,13 +414,13 @@ class App extends Component {
               </List.Item>
             </List>
           </p>
+          {/* 
           <Header as="h3" dividing textAlign="center">
             Mobenga AB
             <Header.Subheader>
               {"Front End Developer - Malmö, Sweden - 2015 - 2016"}
             </Header.Subheader>
           </Header>
-          {/* 
           <p>
             Worked as a Front End Developer in several teams, developing
             Sportsbook applications. The applications ranged from web apps in a
@@ -388,6 +443,18 @@ class App extends Component {
           </p> */}
 
           <Header as="h3" dividing textAlign="center">
+            Early Career
+            <Header.Subheader>
+              {"Consultant & Web Developer - 2010 - 2016"}
+            </Header.Subheader>
+          </Header>
+          <p>
+            Across Mobenga, Sony Mobile, Blackberry, HiQ, and others. Built web
+            and mobile clients, contributed to Firefox OS, and worked on
+            large-scale frontend systems using React, Angular, and Vue.js.
+          </p>
+
+          {/* <Header as="h3" dividing textAlign="center">
             HiQ Skåne AB
             <Header.Subheader>
               {"Consultant - Lund, Sweden - 2013 - 2015"}
@@ -405,7 +472,7 @@ class App extends Component {
               Web App Frontend Developer, Blackberry Blend, Blackberry
             </List.Item>
             <List.Item>Web Frontend Developer, InfabVitamin AB </List.Item>
-          </List>
+          </List> */}
           {/* <Header as="h3" dividing textAlign="center">
             Sony Mobile AB
             <Header.Subheader>

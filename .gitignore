@@ -21,3 +21,15 @@ src/**/*.map
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# LaTeX output
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
